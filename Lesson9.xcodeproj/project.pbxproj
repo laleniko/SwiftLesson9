@@ -15,6 +15,7 @@
 		951EB12726FBA25000B1D0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951EB12626FBA25000B1D0E6 /* Assets.xcassets */; };
 		951EB12A26FBA25000B1D0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951EB12826FBA25000B1D0E6 /* LaunchScreen.storyboard */; };
 		951EB13626FBA30600B1D0E6 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EB13526FBA30600B1D0E6 /* Animation.swift */; };
+		95A2034226FBD65A00385D57 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2034126FBD65A00385D57 /* DataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		951EB12926FBA25000B1D0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		951EB12B26FBA25000B1D0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		951EB13526FBA30600B1D0E6 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		95A2034126FBD65A00385D57 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 				0C69BAD0D31E3F669D2B55AC /* Pods-Lesson9.debug.xcconfig */,
 				38025300969D85D5F303A16F /* Pods-Lesson9.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				951EB13526FBA30600B1D0E6 /* Animation.swift */,
+				95A2034126FBD65A00385D57 /* DataStorage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,6 +238,7 @@
 			files = (
 				951EB12226FBA24E00B1D0E6 /* ViewController.swift in Sources */,
 				951EB11E26FBA24E00B1D0E6 /* AppDelegate.swift in Sources */,
+				95A2034226FBD65A00385D57 /* DataStorage.swift in Sources */,
 				951EB13626FBA30600B1D0E6 /* Animation.swift in Sources */,
 				951EB12026FBA24E00B1D0E6 /* SceneDelegate.swift in Sources */,
 			);
